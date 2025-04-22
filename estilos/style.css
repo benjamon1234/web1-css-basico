@@ -1,0 +1,16 @@
+/*comentario de css*/
+header {
+    background-color: chocolate;
+}
+
+/*selector por id*/
+
+#pantalones {
+    color: crimson;
+    
+    font-size: 1.9em; /*tamaño de fuente*/
+
+    text-align: center;
+
+    font-weight: ;
+}
