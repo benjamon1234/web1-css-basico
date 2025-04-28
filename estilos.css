@@ -1,0 +1,53 @@
+/* Estilos para la página web */
+body {
+    background-color: #72471f;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #e6973e;
+    font-style: italic;
+}
+
+p {
+    background-color: black;
+    color: darkcyan;
+    text-transform: unset;
+}
+
+.encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+
+.parrafo2 {
+
+    text-transform: lowercase;
+
+
+}
+
+.parrafo {
+    text-align: justify;
+    font-size: 24px;
+
+}
+
+#fondo {
+    background-color: #168b55;
+}
+
+p a {
+    color: #333;
+    text-decoration: none;
+}
+.parrafo3{
+    font-size:xx-large;
+}
+.parrafo4{
+    letter-spacing:0cqmin;
+}
