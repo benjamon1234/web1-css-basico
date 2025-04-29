@@ -43,11 +43,38 @@ p {
 
 p a {
     color: #333;
-    text-decoration: none;
+    
 }
 .parrafo3{
-    font-size:xx-large;
+    background-color: #9c4320;
 }
 .parrafo4{
-    letter-spacing:0cqmin;
+    font-size: larger;
+}
+.parrafo5{
+    font-weight: lighter;
+}
+.parrafo6{
+    font-style: unset;
+}
+.parrafo7{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parrafo8{
+    text-align:center;
+}
+.parrafo9{
+    text-decoration:line-through
+}
+.parrafo10{
+    text-transform:uppercase
+}
+.parrafo11{
+    letter-spacing:  60px;
+}
+.parrafo12{
+    line-height: 200% 
+}
+.parrafo13{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
 }
