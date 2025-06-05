@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<style>
+    	.contenedor {/* se usa display para cambiar el comportamiento de los elementos que contiene */
+        	width: 300px;
+        	height: 300px;
+        	border: 2px solid black;
+            display: flex;/*sirve para que las otras dos funciones que se van a utilizar funcionen*/
+            justify-content: center;/* alineo horizontalmente hacia el centro la caja */
+            align-items: center;/*alineo verticalmente hacia el centro la caja*/
+    	}
+    	.caja {
+        	width: 100px;
+        	height: 100px;
+        	background: tomato;
+            
+    	}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+    		<div class="caja"></div>
+	</div>
+</body>
+</html>

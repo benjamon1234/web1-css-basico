@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> modelo de Cajas</title>
+    <!--unidades de medidas 
+    px-pixeles
+    %-porcentaje
+    vh-viewheight
+    vw-viewidth
+    em- 1 em equivale 16px.
+    -->
+    <style>
+        
+        header{
+            background-color:darkcyan;
+            width: 100vh;
+            height: 100px;
+            border-top: 5px solid crimson;
+            border-bottom: 5px solid crimson;
+
+        
+        }
+          main table tr th{
+            background-color: darkcyan;
+            border: 5px solid darkslategrey;
+            width: 100px;
+            height: 100px;
+            
+
+        }
+        main table tr td{
+           
+            border: 5px solid darkslategrey;
+            width: 100px;
+            height: 100px;
+            
+           
+        }
+        table{
+            /* eliminar el espacio entre bordes */
+            border-spacing: 0px;
+            /*margin: 55px 125px; /*55px = top y bottom / 125px right y left*/
+            /*margin: 20px 35px 45px; /*top right-left bottom*/
+            margin: 10px 20px 30px 40px; /*top right bottom left*/
+            padding: 45px;
+        }
+        header div{
+            font-size: 2.5em;
+            padding: 0px;
+        }
+    
+    </style>
+</head>
+<body>
+    <!--cajas-->
+    
+    <header>
+      <!--una div con la letra R con un font-size de 2.5em -->
+     <div>
+        R
+     </div>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Titulo1</th>
+                <th>Titulo2</th>
+                <th>Titulo3</th>
+            </tr>
+            <tr>
+                <td>Texto4</td>
+                <td>Texto5</td>
+                <td>Texto6</td>
+            </tr>
+            <tr>
+                <td>Texto7</td>
+                <td>Texto8</td>
+                <td>Texto9</td>
+            </tr>
+
+        </table>
+        <p>lkfhwjklvnlkdjwli</p>
+
+    </main>
+
+</body>
+</html>

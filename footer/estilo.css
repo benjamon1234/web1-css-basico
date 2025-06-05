@@ -1,0 +1,83 @@
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4em;
+    padding-left: 4em;
+    border-bottom: solid 0.1em;
+    
+    padding-top: 0.3em;
+}
+.subfooter-container{
+  display: flex;
+  color: darkgray;
+  gap: 10px;
+  justify-content: space-between;
+
+}
+.lista{
+    list-style: none;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    padding:0px;
+    line-height: 55px;
+   
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+.redes{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+
+
+}
+h2{
+  color: lightgrey;
+  font-weight: bolder;
+  text-transform: uppercase;
+
+}
+.button{
+  color: white;
+  font-weight: bolder;
+}
+.ver{
+  text-decoration: underline;
+  color: darkgrey;
+  
+}
+.list{
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  line-height: 30px;
+}
+.list a{
+  color: white;
+  font-weight: bolder;
+}
+
+.lista,.list,h2{
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+}
+.footer-seccion{
+  padding-right: 10em;
+}
+.wasap{
+  height: 80px;
+  position:fixed;
+  bottom: 30px;
+  right:50px;
+}
