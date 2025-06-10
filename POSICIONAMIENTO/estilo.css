@@ -1,0 +1,55 @@
+.contenedor {
+    width: 400px;
+    height: 400px;
+    background-color:rgb(16, 49, 49);
+    position: relative;
+    
+    
+
+}
+.caja1{
+
+  width: 40px;
+  height: 40px;
+  background-color: crimson;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+.caja2{
+
+    width: 40px;
+    height: 40px;
+    background-color:coral;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+  }
+  .caja3{
+
+    width: 40px;
+    height: 40px;
+    background-color:goldenrod;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+  }
+  .caja4{
+
+    width: 40px;
+    height: 40px;
+    background-color:blue;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .conteiner-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+

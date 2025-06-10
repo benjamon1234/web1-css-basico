@@ -1,0 +1,75 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+   gap: 40px;
+    justify-content: center;
+    
+}
+
+.producto{
+    width: 180px;
+    
+    
+}
+
+.text{
+    color: #4762a0;
+    font-weight:700;
+    background-color:#e6f1fc; 
+    border-radius: 3px;
+    padding: 3px;
+    width: 116px;
+    
+
+}
+.precio{
+    font-weight:1000;
+
+    color: green;
+    padding-top: 50px;
+}
+.precio span{
+    font-size:small;
+    color: darkgrey;
+    text-decoration: line-through;
+}
+.agregar{
+    position: absolute;
+    top: 190px;
+    
+    
+}
+button{
+    font-weight: 600;
+    font-size: x-large;
+    background-color: #0053e2;
+    color: white;
+    border: 0;
+    padding: 9px;
+    border-radius: 40px;
+}
+.imagen{
+    position: relative;
+    padding-top: 5px;
+    
+}
+.corazon{
+ 
+    position: absolute;
+    width: 30px;
+    top: 10px;
+    right: 0px;
+  
+
+}
+.texto{
+  font-weight: 600;
+  padding-top: 8px;
+}
+.star{
+    color: darkgray;
+}
+.valor{
+    font-weight: 800;
+    padding-top: 50px;
+}
