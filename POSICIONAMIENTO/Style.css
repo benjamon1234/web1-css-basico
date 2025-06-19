@@ -1,0 +1,95 @@
+main{
+
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 22px;
+    font-style: normal;
+  
+}
+.seccion{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.imagen {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Text {
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+    font-size: 60px;
+    color: white;
+}
+.boton button{
+    position: absolute;
+    bottom: 110px;
+    left: 40px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    
+
+}
+.VD{
+    position: absolute;
+    bottom: 55px;
+    left: 30px;
+    color:darkgray;
+}
+.contenedor{
+    position: relative;
+    background-color:#00142e;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    width: 423px;
+    padding-top: 40px;
+    
+   
+    
+}
+.Texto{
+    font-size: xx-large;
+    color: white;
+    width: 290px;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+.texto{
+    color: darkgrey;
+    width: 350px;
+    height: 100px;
+    padding-top: 15px;
+    margin-left: 20px;
+    
+}
+ .buton{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    
+}
+.buton button{
+ border-radius: 20px;
+ padding: 8px;
+ font-weight: 700;
+ color: white;
+ background-color: #0068d0;
+ border: 0;
+}
+.caja img{
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
