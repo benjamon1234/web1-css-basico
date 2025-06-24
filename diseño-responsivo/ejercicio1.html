@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            background-color: maroon;
+            height: 270px;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .caja {
+            display: flex;
+            background-color: rgb(228, 197, 158);
+            margin: 20px;
+            justify-content: center;
+            border-radius: 5px;
+            padding: 3px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: end;
+        }
+        .conteiner{
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            
+
+        } 
+        .box{
+            width: 250px;
+        }
+        
+        .precio{
+            position: absolute;
+            color: green;
+            font-weight: 700;
+            top: 5px;
+            left: 10px;
+        }
+
+
+        @media screen and (width >=768px) {
+
+            .contenedor {
+                display: flex;
+                background-color: maroon;
+                justify-content: space-around;
+                height: 70px;
+                flex-direction: row;
+                
+            }
+
+            .caja {
+                display: flex;
+                background-color: rgb(228, 197, 158);
+                margin-bottom: 10px;
+                margin-top: 10px;
+                align-items: center;
+                border-radius: 5px;
+                padding: 3px;
+
+
+
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="contenedor">
+            <div class="caja"><a href="#">Inicio</a></div>
+            <div class="caja"><a href="#">Producto</a></div>
+            <div class="caja"><a href="#">Servicio</a></div>
+            <div class="caja"><a href="#">Contacto</a></div>
+        </div>
+    </nav>
+    <main>
+      <div class="conteiner">
+
+        <img src="../assets/img/bujia.webp" alt="bujia" width="250px">
+        <div class="box">Componentes esenciales en los motores de combustión interna, específicamente en aquellos que utilizan gasolina.</div>
+        <div class="precio">$5.000</div>
+
+
+      </div>
+
+
+
+    </main>
+</body>
+
+</html>
